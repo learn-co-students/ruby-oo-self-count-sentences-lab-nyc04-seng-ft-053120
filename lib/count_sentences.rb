@@ -13,6 +13,6 @@ class String
   end
 
   def count_sentences
-    self.split(Regexp.union([". ", "? ", "! "])).size
+    self.split(Regexp.union([". ", "? ", "! "])).count
   end
 end
